@@ -1,0 +1,161 @@
+@font-face{
+    font-family: head;
+    src:url(AdobeClean-SemiCn.ttf)
+  }
+
+
+body{
+    cursor: pointer;
+    font-family: head;
+}
+p,h1{
+    text-transform: capitalize;
+}
+input{
+    padding-left: 20px;
+    direction: rtl;
+    font-size: 18px;
+}
+button{
+    outline-color: #fff;
+
+}
+
+nav{
+    background-color: #ffce00;
+    border-radius: 32px;
+    padding: 5px 0;
+    margin: 10px 0;
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+align-content: center;
+    margin: 0px 10px ;
+}
+
+.logo-caption img{
+    width: 30px;
+}
+.logo-caption p{
+    font-weight: bold;
+    display: inline-block;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+.qu-mark{
+    width: 23px;
+    height: 25px;
+}
+.header-content{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50px,-50px);
+}
+.header-content h1{
+    font-size: 54px;
+    margin-left: 60px;
+}
+.header-content img{
+    width: 50%;
+}
+.sec-header
+{
+    margin-bottom: 189px;
+
+}
+.sec-content-form{
+    margin-top: 100px;
+    width: 80%;
+}
+.sec-content-img{
+    position: relative;
+}
+
+.person-modal{
+    position: absolute;
+    top: 60px;
+    width: 78%;
+    left: 50px;
+
+}
+.background-bacperson-modal{
+    width: 70%;
+    height: 500px;
+}
+input::placeholder,button{
+    color: gray;
+    font-size: 20px;
+    text-align: center;
+
+}
+button{
+    color: black;
+    margin: 10px 0;
+}
+.submit{
+    margin-left: 10px;
+    background-color: black;
+    color: #fff;
+}
+.form-group .u-full-width,.u-full-width{
+    border-radius: 30px;
+}
+/* input,button{
+outline: none;
+outline-color: red;
+} */
+@media only screen and (max-width: 1200px){
+    .offset-4,.offset-5{
+       margin-left: 0;
+    }
+    .person-modal{
+        position: absolute;
+        top: 60px;
+        width: 78%;
+        left: 16px;
+    
+    }
+    .background-bacperson-modal{
+        width: 60%;
+        height: 532px;
+    }
+    .header-content h1{
+       margin-left: 0px;
+       margin-bottom: 6px;
+
+    }
+    .sec-header
+    {
+        margin-bottom: 80px;
+    
+    }
+  
+}
+.categoray-background{
+    background-color: #ffce00;
+    border-color: #ffce00;
+}
+
+#hide{
+    display: none;
+}
+
+#hide,#show{
+    color: gray;
+    position: absolute;
+    left:20px;
+    top:10px;
+    font-size: 18px;
+}
+.error{
+    color: red;
+    margin: 4px  10px;
+    font-size: 14px;
+    font-family: tahoma;
+    /* transition: 1s; */
+    display: none;
+}
