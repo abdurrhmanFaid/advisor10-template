@@ -157,5 +157,5 @@ outline-color: red;
     font-size: 14px;
     font-family: tahoma;
     /* transition: 1s; */
-    display: none;
+    float: right;
 }
