@@ -1,0 +1,86 @@
+
+.navbar{
+    background-color:#ffce00;
+    border-radius: 35px;
+    margin-top: 5px;
+    height: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-item .title{
+    font-size: 20px;
+    font-weight: bold;
+}
+a.navbar-item:hover{
+    background-color:unset;
+}
+/* .navbar-item .qu-mark,.navbar-burger .qu-mark{
+ 
+    position: relative;
+    left: 540px;
+} */
+.navbar-burger .qu-mark{
+    margin-top: 14px ;
+
+}
+.navbar-burger:hover{
+    background-color:unset;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input::placeholder{
+text-transform: capitalize;
+text-align: center;
+}
+.register-cat{
+    border-radius: 20px;
+    width: 100%;
+}
+.categoray-background{
+    background-color: #ffce00;
+    color:#fff
+}
+.error{
+    color: red;
+    display: none;
+}
+.input,.button{
+    border-radius: 20px;
+}
+
+.sec-content-img{
+    position: relative;
+}
+
+.person-modal{
+    position: absolute;
+    top: 60px;
+    width: 78%;
+    left: 70px;
+}
+
+#hide{
+    display: none;
+}
+
+#hide,#show{
+    color: gray;
+    position: absolute;
+    left:20px;
+    top:10px;
+    font-size: 18px;
+}
+.form-content{
+    /* order: 2; */
+    margin-top: 213px;
+}
+
+/* @media only screen and (min-width:769px){
+    .foo{
+        order: 1;
+    }
+} */

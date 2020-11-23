@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="bulma/css/bulma.min.css">
+  <link rel="stylesheet" href="bulma/css/bulma-rtl.css">
+
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body dir="rtl">
+
+
+
+  <nav class="navbar" role="navigation" aria-label="main navigation" dir="ltr">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="">
+        <img src="img/Layer 2.png" alt="">
+      </a>
+      <a class="navbar-item">
+        <p class="title">advisor10.com</p>
+      </a>
+      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+        data-target="navbarBasicExample">
+        <img aria-hidden="true" class="qu-mark" src="img/Group 7.png" alt="">
+
+      </a>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <img class="qu-mark" src="img/Group 7.png" alt="">
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="hero">
+    <div class="hero-body ">
+      <div class="container has-text-centered">
+        <h1 class="title is-1">اهلا بك</h1>
+
+        <h2 class="subtitle">
+          <img src="img/Layer 3.png" alt="">
+
+        </h2>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="container">
+    <div class="columns">
+      <div class="column is-6 ">
+        <div class="sec-content-img">
+          <img class="background-bacperson-modal" src="img/Layer 4.png" alt="">
+          <img class="person-modal" src="img/3ECosO1qg5.png" alt="">
+        </div>
+      </div>
+      <div class="column is-6">
+        <div class="form-content">
+          <div class="field">
+            <div class="control">
+              <input class="input" type="text" placeholder="الاسم">
+            </div>
+          </div>
+
+          <div class="columns has-text-centered">
+            <div class="column ">
+              <button class="button register-cat" onclick="changeTo(event)">حساب اعلاني</button>
+            </div>
+            <div class="column">
+              <button class="button register-cat" onclick="changeTo(event)">معيد/دكتور</button>
+
+            </div>
+            <div class="column">
+              <button class="button register-cat" onclick="changeTo(event)">طالب</button>
+
+            </div>
+          </div>
+          <div class="column is-10 ">
+
+            <div class="field ">
+              <div class="control">
+                <input type="email" class="input" id="email" placeholder="البريد الالكتروني">
+                <p class="error">hello friend this is test to appear any error</p>
+
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <input type="text" class="input" id="phone-number" placeholder="رفم التليفون">
+                <p class="error">hello friend this is test to appear any error</p>
+
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <input type="password" class="input" id="password" placeholder="الرقم السري ">
+                <p class="error">hello friend this is test to appear any error</p>
+
+
+                <i class="fa  fa-eye" aria-hidden="true" id="show"></i>
+                <i class="fa fa-eye-slash" aria-hidden="true" id="hide"></i>
+
+              </div>
+            </div>
+            <div class="field">
+              <div class="control">
+                <input type="password" class="input" id="confirm-password" placeholder=" تاكيد الرقم السري">
+                <p class="error">hello friend this is test to appear any error</p>
+
+              </div>
+            </div>
+
+            <button type="submit" class="button  is-black is-fullwidth">تسجيل</button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+
+
+    </div>
+  </div>
+  <!-- <scrip src="bulma/bulma.sass"></scrip> -->
+  <scrip src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"></scrip>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
