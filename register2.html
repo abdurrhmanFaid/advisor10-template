@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="bulma/css/bulma.min.css">
-  <link rel="stylesheet" href="bulma/css/bulma-rtl.css">
-
-  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/fontawesome.min.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Register 2</title>
+  <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <!-- Bulma Version 0.9.0-->
+  <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
+  <!-- <style type="text/css"> -->
   <link rel="stylesheet" href="css/style.css">
+
+
 </head>
+
 
 <body dir="rtl">
 
@@ -48,7 +53,7 @@
         <h1 class="title is-1">تهانينا لقد تم تسجيلك بنجاح ..</h1>
 
         <h2 class="subtitle">
-قم باستكمال باقي البيانات لتستمتع بالتجربة كاملة
+          قم باستكمال باقي البيانات لتستمتع بالتجربة كاملة
         </h2>
       </div>
     </div>
@@ -64,136 +69,76 @@
         </div>
       </div>
       <div class="column is-6">
-        <!-- <div class="form-content">
-          <div class="field">
-            <div class="control">
-              <input class="input" type="text" placeholder="الاسم">
-            </div>
-          </div>
-
-          <div class="columns has-text-centered">
-            <div class="column ">
-              <button class="button register-cat" onclick="changeTo(event)">حساب اعلاني</button>
-            </div>
-            <div class="column">
-              <button class="button register-cat" onclick="changeTo(event)">معيد/دكتور</button>
-
-            </div>
-            <div class="column">
-              <button class="button register-cat" onclick="changeTo(event)">طالب</button>
-
-            </div>
-          </div>
-          <div class="column is-10 ">
-
-            <div class="field ">
-              <div class="control">
-                <input type="email" class="input" id="email" placeholder="البريد الالكتروني">
-                <p class="error">hello friend this is test to appear any error</p>
-
-              </div>
-            </div>
-            <div class="field">
-              <div class="control">
-                <input type="text" class="input" id="phone-number" placeholder="رفم التليفون">
-                <p class="error">hello friend this is test to appear any error</p>
-
-              </div>
-            </div>
-            <div class="field">
-              <div class="control">
-                <input type="password" class="input" id="password" placeholder="الرقم السري ">
-                <p class="error">hello friend this is test to appear any error</p>
-
-
-                <i class="fa  fa-eye" aria-hidden="true" id="show"></i>
-                <i class="fa fa-eye-slash" aria-hidden="true" id="hide"></i>
-
-              </div>
-            </div>
-            <div class="field">
-              <div class="control">
-                <input type="password" class="input" id="confirm-password" placeholder=" تاكيد الرقم السري">
-                <p class="error">hello friend this is test to appear any error</p>
-
-              </div>
-            </div>
-
-            <button type="submit" class="button  is-black is-fullwidth">تسجيل</button>
-
-          </div>
-
-        </div> -->
         <form class="form-content">
           <div class="field">
             <div class="control">
               <select name="" id="" class="input" dir="rtl">
-                  <option value="" selected>دولة</option>
-                  <option value="" >مصر</option>
-                  <option value="" >ليبيا</option>
-                  <option value="" >سوريا</option>
-                  <option value="" >اليمن</option>
-                  <option value="" >تونس</option>
-                  <option value="" >الجزائر</option>
-                  <option value="" >المغرب</option>
-                  <option value="" >موريتانيا</option>
-                  <option value="" >السودان</option>
-              </select>
-            </div>
-          </div>
-          
-          <div class="field">
-            <div class="control">
-              <select name="" id="" class="input" >
-                  <option value="" selected>المدينة</option>
-                  <option value="" >القاهر</option>
-                  <option value="" >الاسكندرية</option>
-                  <option value="" >البحيرة</option>
-                  <option value="" >المنصورة</option>
-                  <option value="" >طنطا</option>
-                  <option value="" >بنها</option>
+                <option value="" selected>دولة</option>
+                <option value="">مصر</option>
+                <option value="">ليبيا</option>
+                <option value="">سوريا</option>
+                <option value="">اليمن</option>
+                <option value="">تونس</option>
+                <option value="">الجزائر</option>
+                <option value="">المغرب</option>
+                <option value="">موريتانيا</option>
+                <option value="">السودان</option>
               </select>
             </div>
           </div>
 
           <div class="field">
             <div class="control">
-              <select name="" id="" class="input" >
-                  <option value="" selected>الجامعة</option>
-                  <option value="" >القاهر</option>
-                  <option value="" >الاسكندرية</option>
-                  <option value="" >دمنهور</option>
-                  <option value="" >المنصورة</option>
-                  <option value="" >طنطا</option>
-                  <option value="" >بنها</option>
+              <select name="" id="" class="input">
+                <option value="" selected>المدينة</option>
+                <option value="">القاهر</option>
+                <option value="">الاسكندرية</option>
+                <option value="">البحيرة</option>
+                <option value="">المنصورة</option>
+                <option value="">طنطا</option>
+                <option value="">بنها</option>
               </select>
             </div>
           </div>
 
           <div class="field">
             <div class="control">
-              <select name="" id="" class="input" >
-                  <option value="" selected>القسم</option>
-                  <option value="" >كيميا</option>
-                  <option value="" >جيولوجيا</option>
-                  <option value="" >عمارة</option>
-                  <option value="" >مدني</option>
-                  <option value="" >نظم ومعلومات</option>
-                  <option value="" >تخدير</option>
+              <select name="" id="" class="input">
+                <option value="" selected>الجامعة</option>
+                <option value="">القاهر</option>
+                <option value="">الاسكندرية</option>
+                <option value="">دمنهور</option>
+                <option value="">المنصورة</option>
+                <option value="">طنطا</option>
+                <option value="">بنها</option>
               </select>
             </div>
           </div>
 
           <div class="field">
             <div class="control">
-              <select name="" id="" class="input" >
-                  <option value="" selected>الدفعة</option>
-                  <option value="" >الاولي</option>
-                  <option value="" >التانية</option>
-                  <option value="" >التالتة</option>
-                  <option value="" >الرابعة</option>
-                  <option value="" >الخامسة</option>
-                  <option value="" >السادسة</option>
+              <select name="" id="" class="input">
+                <option value="" selected>القسم</option>
+                <option value="">كيميا</option>
+                <option value="">جيولوجيا</option>
+                <option value="">عمارة</option>
+                <option value="">مدني</option>
+                <option value="">نظم ومعلومات</option>
+                <option value="">تخدير</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <div class="control">
+              <select name="" id="" class="input">
+                <option value="" selected>الدفعة</option>
+                <option value="">الاولي</option>
+                <option value="">التانية</option>
+                <option value="">التالتة</option>
+                <option value="">الرابعة</option>
+                <option value="">الخامسة</option>
+                <option value="">السادسة</option>
               </select>
             </div>
           </div>
@@ -209,8 +154,6 @@
 
     </div>
   </div>
-  <!-- <scrip src="bulma/bulma.sass"></scrip> -->
-  <scrip src="node_modules/@fortawesome/fontawesome-free/js/fontawesome.min.js"></scrip>
   <script src="js/main.js"></script>
 </body>
 

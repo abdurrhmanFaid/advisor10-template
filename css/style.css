@@ -1,4 +1,10 @@
 
+
+html{
+    overflow-y: scroll;
+}
+
+
 .navbar{
     background-color:#ffce00;
     border-radius: 35px;
@@ -14,11 +20,7 @@
 a.navbar-item:hover{
     background-color:unset;
 }
-/* .navbar-item .qu-mark,.navbar-burger .qu-mark{
- 
-    position: relative;
-    left: 540px;
-} */
+
 .navbar-burger .qu-mark{
     margin-top: 14px ;
 
@@ -26,12 +28,7 @@ a.navbar-item:hover{
 .navbar-burger:hover{
     background-color:unset;
 }
-.hero{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-}
 input::placeholder{
 text-transform: capitalize;
 text-align: center;
@@ -78,9 +75,67 @@ text-align: center;
     /* order: 2; */
     margin-top: 213px;
 }
+.input ,.button{
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);  
+}
 
-/* @media only screen and (min-width:769px){
-    .foo{
-        order: 1;
+
+
+
+ .image-data-user
+{
+    width: 34%;
+    border: 2px solid lightgray;
+    padding: 0px;
+    border-radius: 8px;
+    /* margin: 0 10px; */
+    margin-left: 20px;
+}
+
+.media-content{
+    flex-grow: 0;
+}
+
+.search-logo-item img{
+width: 64%;
+}
+
+.head-search{
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 26px;
+}
+@media screen and (min-width: 769px){
+    .column.is-2 {
+        width: 12.66667%;
     }
+    
+}
+
+@media screen and (max-width: 560px){
+    .search-logo-item {
+        display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    align-content: flex-end;
+
+    }
+    .search-logo-item img{
+        width: 60%;
+     margin-right: 40px;
+        }
+  .arrow-item,.media{
+      display: flex;
+      justify-content: center;
+  }
+
+  .fa-4x {
+    font-size: 2em;
+}
+/* .columns{
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px ;
 } */
+
+}
