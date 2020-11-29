@@ -1,14 +1,11 @@
 
-
-
-
 .navbar{
     background-color:#ffce00;
     border-radius: 35px;
     margin-top: 5px;
     height: 0px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
 }
 .navbar-item .title{
     font-size: 20px;
@@ -19,7 +16,7 @@ a.navbar-item:hover{
 }
 
 .navbar-burger .qu-mark{
-    margin-top: 14px ;
+    margin-top: 6px ;
 
 }
 .navbar-burger:hover{
@@ -69,7 +66,6 @@ text-align: center;
     font-size: 18px;
 }
 .form-content{
-    /* order: 2; */
     margin-top: 213px;
 }
 .input ,.button{
@@ -82,7 +78,6 @@ text-align: center;
     border: 2px solid lightgray;
     padding: 0px;
     border-radius: 8px;
-    /* margin: 0 10px; */
     margin-left: 20px;
 }
 
@@ -105,7 +100,7 @@ width: 64%;
     }
 }
 
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 769px){
    
     .sec-content-img{
         display: none;
@@ -118,19 +113,13 @@ width: 64%;
     }
    
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 1024px){
     .search-logo-item {
         display: flex;
-    /* justify-content: center; */
-    width: 60%;
-    /* align-items: center; */
-    /* align-content: flex-end; */
-    margin-right: 40px;
-
+    width: 100%;
     }
     .search-logo-item img{
         width: 60%;
-     margin-right: 40px;
         }
   .arrow-item,.media{
       display: flex;
@@ -140,5 +129,12 @@ width: 64%;
   .fa-4x {
     font-size: 2em;
 }
+body{
+    overflow-x: hidden;
 }
+}
+.container{
+    width: 80%;
 
+}
+ 
