@@ -18,12 +18,12 @@ function changeTo(event) {
 
 function myFunction(e) {
  
-  let elems = document.querySelectorAll(".categoray-background");
+  let elems = document.querySelectorAll(".category-background");
   [].forEach.call(elems, function(el) {
  
-    el.classList.remove("categoray-background");
+    el.classList.remove("category-background");
   });
-  e.target.classList.add("categoray-background") ;
+  e.target.classList.add("category-background") ;
 }
 
 

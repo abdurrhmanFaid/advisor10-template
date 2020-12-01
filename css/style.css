@@ -4,8 +4,6 @@
     border-radius: 35px;
     margin-top: 5px;
     height: 0px;
-    /* display: flex; */
-    /* justify-content: space-between; */
 }
 .navbar-item .title{
     font-size: 20px;
@@ -31,9 +29,8 @@ text-align: center;
     border-radius: 20px;
     width: 100%;
 }
-.categoray-background{
+.category-background{
     background-color: #ffce00;
-    color:#fff
 }
 .error{
     color: red;
@@ -138,3 +135,63 @@ body{
 
 }
  
+
+
+
+.control.has-icons-left .icon, .control.has-icons-right .icon {
+    color: #dbdbdb;
+    height: 2.5em;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 2.5em;
+    z-index: 4;
+}
+
+.timline-body{
+    position: relative;
+}
+.category-timeline{
+    position: fixed;
+    z-index: 10;
+    overflow: hidden;
+}
+.posts-body{
+    margin-right: 240px;
+}
+.media-timeline{
+    border: 1px solid lightgray;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+@media screen and (max-width: 1024px){
+    
+    .custom-navbar-element{
+        display: inline-block;
+        margin: 0 30px;
+        text-align: right;
+    
+    }
+    .category-timeline{
+        position: static;
+        z-index: unset;
+        overflow: hidden;
+    }
+    .posts-body{
+        margin-right: 0px;
+    }
+    .media-content {
+        overflow-x: hidden;
+    }
+}
+
+  
+
+    @media screen and (max-width: 768px){
+.media-content {
+    overflow-x: hidden;
+}
+    }
+
