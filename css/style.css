@@ -24,14 +24,13 @@ a.navbar-item:hover{
 input::placeholder{
 text-transform: capitalize;
 text-align: center;
+color: #333;
 }
 .register-cat{
     border-radius: 20px;
     width: 100%;
 }
-.category-background{
-    background-color: #ffce00;
-}
+
 .error{
     color: red;
     display: none;
@@ -40,16 +39,7 @@ text-align: center;
     border-radius: 20px;
 }
 
-.sec-content-img{
-    position: relative;
-}
 
-.person-modal{
-    position: absolute;
-    top: 60px;
-    width: 78%;
-    left: 70px;
-}
 
 #hide{
     display: none;
@@ -63,7 +53,7 @@ text-align: center;
     font-size: 18px;
 }
 .form-content{
-    margin-top: 213px;
+    margin-top: 100px;
 }
 .input ,.button{
   box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);  
@@ -83,7 +73,7 @@ text-align: center;
 }
 
 .search-logo-item img{
-width: 64%;
+    width: 40%;
 }
 
 .head-search{
@@ -115,10 +105,8 @@ width: 64%;
         display: flex;
     width: 100%;
     }
-    .search-logo-item img{
-        width: 60%;
-        }
-  .arrow-item,.media{
+  
+  .media{
       display: flex;
       justify-content: center;
   }
@@ -130,15 +118,12 @@ body{
     overflow-x: hidden;
 }
 }
-.container{
-    width: 80%;
 
-}
  
 
 
 
-.control.has-icons-left .icon, .control.has-icons-right .icon {
+/* .control.has-icons-left .icon, .control.has-icons-right .icon {
     color: #dbdbdb;
     height: 2.5em;
     pointer-events: none;
@@ -146,7 +131,7 @@ body{
     top: 0;
     width: 2.5em;
     z-index: 4;
-}
+} */
 
 .timline-body{
     position: relative;
@@ -155,6 +140,11 @@ body{
     position: fixed;
     z-index: 10;
     overflow: hidden;
+}
+.category-timeline >div>p{
+    border-radius: 10px;
+    padding: 4px;
+    margin-top: 6px;
 }
 .posts-body{
     margin-right: 240px;
@@ -170,7 +160,7 @@ body{
     
     .custom-navbar-element{
         display: inline-block;
-        margin: 0 30px;
+        margin: 0 20px;
         text-align: right;
     
     }
@@ -195,3 +185,24 @@ body{
 }
     }
 
+footer{
+    position: relative;
+    top:-10px;
+    background-color:#ffce00 ;
+    padding: 80px;
+}
+.final-footer{
+    padding: 20px;
+    position: relative;
+    top:-10px;
+}
+.footer-logo-img{
+    width: 40%;
+}
+@media screen and (max-width: 1200px){
+    footer{
+        padding: 20px;
+        position: relative;
+        top:0px;
+    }
+}

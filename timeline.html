@@ -7,18 +7,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>TimeLine </title>
   <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <!-- Bulma Version 0.9.0-->
   <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
   <!-- <style type="text/css"> -->
+
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-
-
 <body dir="rtl">
-
   <nav class="navbar" dir="ltr">
     <div class="container">
       <div class="navbar-brand ">
@@ -34,30 +34,23 @@
           <span></span>
         </span>
       </div>
-      <div id="navbarMenu" class="navbar-menu ">
+      <div id="navbarMenu" class="navbar-menu">
         <div class="navbar-end">
-          <div class="navbar-item ">
-            <div class="column is-8">
-              <div class="field">
-                <div class="control has-icons-left">
-                  <input class="input is-rounded" type="text" placeholder="Search">
-                  <span class="icon is-left">
-                    <i class="fa fa-search"></i>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
+
 
           <div class="navbar-item custom-navbar-element">
             <a><img src="img/user-05-512.png" alt=""></a>
           </div>
           <div class="navbar-item custom-navbar-element">
-            <a class="has-text-black"><img src="img/images.jpg" alt=""></i></a>
+            <a href=""> <img src="img/hand-shake.svg" alt="">14 </a>
           </div>
 
           <div class="navbar-item custom-navbar-element">
-            <a class="has-text-black"><img src="img/download.jpg" alt=""></i></a>
+            <a><img src="img/mail.svg" alt="" style="width: 40px; height: 40px;"></i>3</a>
+          </div>
+
+          <div class="navbar-item custom-navbar-element">
+            <a href=""> <img src="img/add-friend.svg" alt="">14 </a>
           </div>
 
           <div class="navbar-item has-dropdown is-hoverable">
@@ -83,10 +76,21 @@
     </div>
   </nav>
 
-
   <div class="container mt-4 mb-6">
-    <div class="columns">
-      <div class="column is-2">
+    <div class="columns is-multiline">
+
+      <div class="column is-3-desktop is-6-tablet is-mobile ">
+        <div class="field">
+          <div class="control has-icons-left">
+            <input class="input is-rounded has-background-warning" type="text" placeholder="Search">
+            <span class="icon is-left">
+              <i class="fa fa-search"></i>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-3-desktop is-6-tablet is-mobile">
         <div class="field">
           <div class="control">
             <select name="" id="" class="input" dir="rtl">
@@ -104,7 +108,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-2">
+      <div class="column is-3-desktop is-6-tablet is-mobile">
         <div class="field">
           <div class="control ">
             <select name="" id="" class="input">
@@ -119,7 +123,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-2">
+      <div class="column is-3-desktop is-6-tablet is-mobile">
         <div class="field">
           <div class="control">
             <select name="" id="" class="input">
@@ -135,7 +139,7 @@
         </div>
       </div>
 
-      <div class="column is-2">
+      <div class="column is-3-desktop is-6-tablet is-mobile">
         <div class="field">
           <div class="control">
             <select name="" id="" class="input" dir="rtl">
@@ -153,7 +157,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-2">
+      <div class="column is-3-desktop is-6-tablet is-mobile">
         <div class="field">
           <div class="control">
             <select name="" id="" class="input">
@@ -168,7 +172,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-2">
+      <div class="column is-3-desktop is-6-tablet is-mobile">
         <div class="field">
           <div class="control">
             <select name="" id="" class="input">
@@ -183,7 +187,7 @@
           </div>
         </div>
       </div>
-      <div class="column is-2">
+      <div class="column is-3-desktop is-6-tablet is-mobile ">
         <div class="field">
           <div class="control">
             <select name="" id="" class="input">
@@ -199,67 +203,28 @@
         </div>
       </div>
 
-      <div class="column is-2 ">
-        <div class="field">
-          <div class="control has-icons-left">
-            <input class="input is-rounded  has-background-warning has-text-light" type="text" placeholder="Search">
-            <span class="icon is-left">
-              <i class="fa fa-search"></i>
-            </span>
-          </div>
-        </div>
-      </div>
+
     </div>
     <hr>
 
-  </div>
-
-
-
-
-  <div class="column is-3 category-timeline">
-    <div class="panel">
-      <p class="panel-heading has-text-centered has-background-warning">Main Heading Goes Her</p>
-      <a class="panel-block">
-        <span class="panel-icon">
-          <i class="fa fa-home"></i>
-        </span>
-        <span class="name">مقالات</span>
-      </a>
-      <a class="panel-block">
-        <span class="panel-icon">
-          <i class="fa fa-viadeo"></i>
-        </span>
-        <span class="name">فيديوهات</span>
-      </a>
-      <a class="panel-block">
-        <span class="panel-icon">
-          <i class="fa fa-th-list"></i>
-        </span>
-        <span class="name">شات</span>
-      </a>
-      <a class="panel-block">
-        <span class="panel-icon">
-          <i class="fa fa-comment-o"></i>
-        </span>
-        <span class="name">تعليقات</span>
-      </a>
-      <a class="panel-block">
-        <span class="panel-icon">
-          <i class="fa fa-folder-o"></i>
-        </span>
-        <span class="name">Folders</span>
-      </a>
-
-    </div>
   </div>
 
   <div class="hero ">
     <div class="hero-body">
       <div class="container timline-body">
         <div class="columns ">
+          <div class="column is-2 category-timeline">
+            <div class="has-text-centered">
 
-          <div class="column  is-6 posts-body" >
+              <p class="has-background-black is-rounded has-text-light ">عام</p>
+              <p class="has-background-black is-rounded has-text-light ">منشورات</p>
+              <p class="has-background-black is-rounded has-text-light ">فيديوهات</p>
+              <p class="has-background-black is-rounded has-text-light ">ايفنتات</p>
+              <p class="has-background-black is-rounded has-text-light ">نصايح</p>
+
+            </div>
+          </div>
+          <div class="column  is-6 posts-body">
             <div class="column is-12">
               <div class="card ">
 
